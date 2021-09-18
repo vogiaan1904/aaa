@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center ;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    padding: 13px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 2px 5px 5px rgba(109, 108, 108, 0.3);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s;
+    
+    
+}
+.header__logo{
+    width: 148px;
+    height: 25px;
+    
+}
+.header__nav a{
+    color:hsl(229, 31%, 21%);
+    text-transform: uppercase;
+    margin-right: 50px;
+    display: inline-block;
+    
+}
+.header__nav a:hover{
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+    transition: all .2s;
+}
+.btn--red{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    
+    outline: none;
+    border: 3px solid hsl(0, 94%, 66%);
+    padding: 12px 40px;
+    background-color: hsl(0, 94%, 66%);
+    
+    
+}
+.btn--red:hover{
+    background-color: #fff;
+    color:hsl(0, 94%, 66%);
+    border: 3px solid hsl(0, 94%, 66%);
+    /* padding: 9px 37px; */
+    cursor: pointer;
+    
+    box-shadow: 2px 5px 5px rgba(109, 108, 108, 0.3);
+}
+.intro{
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 80px;
+}
+.intro__text{
+    margin-left: 100px;
+    max-width: 40%;
+}
+.intro__text h1{
+    color: hsl(229, 31%, 21%);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.intro__text p{
+    font-size: 20px;
+    color: hsl(229, 8%, 60%);
+    margin-bottom: 30px;
+    outline: none;
+    
+
+}
+
+.btn--blue{
+    background-color: hsl(228, 45%, 44%);
+    border: 3px solid hsl(228, 45%, 44%);
+    margin-right: 20px;
+}
+.btn--blue:hover{
+    background-color: #fff;
+    border: 3px solid hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
+    
+}
+.btn--white{
+    color: hsl(229, 8%, 60%);
+    background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(240, 240, 240);
+}
+.btn--white:hover{
+    color: hsl(229, 8%, 60%);
+    background-color: #fff;
+    border: 3px solid hsl(229, 8%, 60%);
+}
+.intro__img{
+    
+    width: 50%;
+}
+.overlay-bg{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    background-color: hsl(228, 45%, 44%);
+}
+.overlay-bg--right{
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    z-index: -1;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.features__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.features__heading h2{
+    color: hsl(229, 31%, 21%);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.features__heading p{
+    text-align: center;
+    align-items: center;
+    color: hsl(229, 8%, 60%);
+    margin-bottom: 80px;
+}
+.features__content{
+    
+}
+.features__content ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    color: hsl(225, 2%, 43%);
+    
+    
+    transition: all .2s;
+}
+.features__content li{
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+    text-align: center;
+    padding-bottom: 40px;
+    width: 300px;   
+    transition: all .2s;    
+}
+.features__content li:hover{
+    color: hsl(229, 31%, 21%);
+    cursor: pointer;
+}   
+.features__content__bottom{
+    display: flex;
+    padding: 100px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.features__content__bottom img{
+    
+    width: 50%;
+}
+.features__content__bottom__text{
+    width: 40%;
+ 
+}
+.features__content__bottom__text h2{
+    margin-bottom: 30px;
+    color: hsl(229, 31%, 21%);
+}
+
+.features__content__bottom__text p{
+    color: hsl(225, 2%, 43%);
+    margin-bottom: 30px;
+}
+.overlay-bg--left{
+    left: 0;
+    bottom: 0;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    z-index: -1;
+}
